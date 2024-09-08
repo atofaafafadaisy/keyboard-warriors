@@ -1701,8 +1701,8 @@ blockquote {
 
   .heading.split-text.is-huge {
     width: auto;
-    max-width: 18ch;
-    font-size: 6.8em;
+    max-width: 15ch;
+    font-size: 5.9em;
   }
 
   .u-text-small {
@@ -1739,7 +1739,7 @@ blockquote {
     overflow-wrap: normal;
     align-items: center;
     padding-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 2.6rem;
   }
 
   .title_wrapper_special {
@@ -1861,12 +1861,16 @@ blockquote {
     text-align: center;
     padding-bottom: 0;
     font-size: 2.3rem;
-    font-weight: 400;
+    font-weight: 900;
     line-height: .9em;
   }
 
   .list_text.is-title, .list_text.is-right {
     text-align: center;
+  }
+
+  .list_text.is-right.is-bold {
+    color: var(--purple);
   }
 
   .grid-_full {
